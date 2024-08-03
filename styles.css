@@ -1,0 +1,133 @@
+body {
+    background: #EAE8E1;
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.spacer {
+    width: 100%;
+    height: 50vh;
+    background: #ddd;
+}
+
+.gallery h1 {
+    font-size: 30px
+}
+
+.gallery p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.gallery {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desktopContent {
+    margin: auto;
+    width: 80%;
+}
+
+.desktopContentSection {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desktopPhotos {
+    width: 620px;
+    height: 470px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.desktopPhoto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.red {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.green {
+    background: rgb(189, 218, 202);
+    background-image: url("./boliviainteligente-k4aqqqBBm1Y-unsplash.jpg");
+}
+
+.blue {
+    background: rgb(189, 213, 237);
+}
+
+.pink {
+    background: rgb(220, 178, 201);
+}
+
+.mobileContent {
+    display: none;
+    width: 80vw;
+}
+
+.mobilePhoto {
+    width: 80vw;
+    height: 80vw;
+    margin-top: 5em;
+    border-radius: 6vw;
+}
+
+@media screen and (max-width: 599px) {
+    .left {
+        display: none;
+    }
+    .right {
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    .desktopPhotos {
+        display: none;
+    }
+    .mobileContent {
+        display: block;
+    }
+}
+
+.bov {
+    border-radius: 50px;
+    margin: 80px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.oa {
+    text-align: center;
+    padding-top: 130px;
+    font-size: 20px;
+}
+
+.hoa {
+    font-size: 60px
+}
+
+.rim {
+    width: 1000px;
+}
